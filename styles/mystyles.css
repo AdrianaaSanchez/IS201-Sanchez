@@ -1,3 +1,29 @@
-body{
-    background-color: aliceblue;
+.body{
+    background-color: lightgray;
 }
+
+.bold
+{
+    font-weight: bold;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    align-content: center;
+  }
+
+.link {
+      text-decoration: underline;
+  }
+
+.fontsize{
+      font-size: medium;
+      font-weight: bold;
+     }
+
+.footer{
+    background-color: lightblue;
+}
+

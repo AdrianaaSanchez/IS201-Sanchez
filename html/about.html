@@ -1,4 +1,4 @@
-<!--Adriana Sanchez 4/6/2022-->
+<!--Adriana Sanchez 4/14/2022-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Clean Blog - Start Bootstrap Theme</title>
+        <title>About Me</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -14,13 +14,14 @@
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="../styles/styles.css" rel="stylesheet" />  <!--make sure this is right-->
+        <link href="../styles/mystyles.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.html">About Page</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -35,13 +36,13 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/about-bg.jpg')">
+        <header class="masthead" style="background-image: url('../images/ocean.jpeg')" alt = "ocean">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="page-heading">
-                            <h1>About Me</h1>
-                            <span class="subheading">This is what I do.</span>
+                            <h1 id = "Top">About Me</h1>
+                            <span class="subheading bold">RESUME</span> 
                         </div>
                     </div>
                 </div>
@@ -52,17 +53,57 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+                        <!--this is the bottom-->
+                      
+                        <ol>
+                            <li class = "bold"> Education</li> 
+                                <ul>
+                                    <li>Brigham Young University</li>
+                                    <li>Bachelor of Arts: Communications, Emphasis in Public Relations</li>
+                                    <li>Minor in Business</li>
+                                    <li>GPA 3.93</li>
+                                    <li>Academic Dean's list for the school of communications</li>
+                                    <li>Member of BYU's chapter of Phi Eta Sigma</li>
+                                </ul>    
+                            <li class = "bold"> Work Experience</li> 
+                                <ul>    
+                                    <li>Teaching Assistant for the BYU Communications Department</li>
+                                    <li>Team Lead for Buns Bakery Marketing BYU OCI</li>
+                                    <li>Vector Marketing</li>
+                                    <li>Skyzone Trampoline Park</li>
+                                </ul>  
+                            <li class = "bold"> Skills</li> 
+                                <ul>    
+                                    <li>Cision/Google Analytics</li>
+                                    <li>Search Engine Optimization</li>
+                                    <li>Adobe Premiere Pro</li>
+                                    <li>Fluent in Spanish</li>
+                                </ul>
+                        </ol>
+
+                        
+                        <!-- <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;
+                        </p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;
+                        <a href="#top">Back to Top</a> -->
+                    </div>
+                    
+                    <!--extra stuff I'm adding-->
+<!-- this is my video and some line I copy and pasted from my About Me Page-->
+                    </p>
+                    <h2 class="fontsize center">Want to see what I bring to the workplace? You can tell a lot about a person from what they like to do...</h2>
+                    <p>&nbsp;</p>
+                    <iframe width="728" height="410" src="https://www.youtube.com/embed/5L4MfQEzePg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>&nbsp;</p>
+                    <a href="https://tourscanner.com/blog/best-adrenaline-activities/" target = "_blank" class = "center link">Check out more adrenaline junkie hobbies of mine!</a>
+                     <!--this is the top-->
                     </div>
                 </div>
             </div>
         </main>
         <!-- Footer-->
-        <footer class="border-top">
+        <footer class="border-top footer">
             <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
+                <!-- <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <ul class="list-inline text-center">
                             <li class="list-inline-item">
@@ -89,8 +130,16 @@
                                     </span>
                                 </a>
                             </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2022</div>
+                        </ul> -->
+                        <div class="small text-center text-muted fst-italic">
+                            <p>
+                                <a class = "link" href ="#Top">Back to Top</a>
+
+                            </p>
+                            <p>
+
+                            </p>
+                            Contact Info: Adriana Halverson Email: adrianaisaQUEEN@gmail.com Phone: 704-576-8897</div>
                     </div>
                 </div>
             </div>

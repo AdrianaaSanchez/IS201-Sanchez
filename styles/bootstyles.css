@@ -1,3 +1,8 @@
+
+.header {
+  text-align: center;
+    padding: 14px 16px;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -20,4 +25,43 @@ ul {
   
   li a:hover {
     background-color: #111;
+  }
+
+  .title {
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+  }
+
+  .mainbody {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-right: 50px;
+    align-content:center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 27px;
+    width: 100%;
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+  }
+
+  .link {
+    text-decoration: underline;
+  }
+  body {
+    background-color: lightblue;
+  }
+
+  .caption {
+    font-weight: bold;
+    color: rgb(46, 45, 45)
   }
